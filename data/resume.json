@@ -1,0 +1,118 @@
+{
+	"basics": {
+		"name": "Deepak Kumar Vasudevan",
+		"label": "Architect",
+		"image": "",
+		"email": "deepak.vasudevan@outlook.com",
+		"phone": "+91 944 540 7856",
+		"url": "https://lavanyadeepak.github.io/lavanyadeepak/",
+		"summary": "A summary of John Doe…",
+		"location": {
+			"address": "Bengaluru KA-IN",
+			"postalCode": "560066",
+			"city": "Bengaluru",
+			"countryCode": "IN",
+			"region": "KA"
+		},
+		"profiles": [{
+			"network": "Twitter",
+			"username": "lavanyadeepak",
+			"url": "https://twitter.com/lavanyadeepak"
+		}]
+	},
+	"work": [{
+		"name": "Alacer Systems and Technology P Ltd",
+		"position": "Solution Architect",
+		"url": "https://www.alacergroup.com/",
+		"startDate": "2020-04-01",
+		"endDate": "2021-03-31",
+        "projectname":"Velocity Suite",
+        "projectDescription":"Velocity FinCrime suite is a comprehensive application for regulatory bodies to combat against financial crimes like AML (Anti-Money Laundering), Terror Financing etc. The suite currently addresses the requirements of USA, India, Bangladesh, and Australia. ",
+        "customerName":"",
+		"summary": "",
+        "technologyStack":"ASP.NET 4.5, C#, Web API, Azure DevOps (Configuration Management, Build and Release Pipelines)",
+		"rolesAndResponsibilities": ["1) Alacer India was the pilot initiative of Alacer Group (USA). Hence pioneered to help them setup the IT infrastructure and development environment at WeWork facilities in Bengaluru with the starting team of 6 development members and 1 UI designer. 2) Comprehensive CI/CD pipelines right from developer check-in to their own VM in Azure Cloud both for application and database development 3) Architected the Fedwire Parsing module for the suite.4) Streamlined the cross-cutting strategies of the application after the first draft of the application was handed over to Alacer by outgoing vendor from Far-East."
+		],
+        "typeOfOpportunity":"",
+        "isActive":"0",
+        "reasonForLeaving":""
+	}],
+	"volunteer": [{
+		"organization": "Organization",
+		"position": "Volunteer",
+		"url": "https://organization.com/",
+		"startDate": "2012-01-01",
+		"endDate": "2013-01-01",
+		"summary": "Description…",
+		"highlights": [
+			"Awarded 'Volunteer of the Month'"
+		]
+	}],
+	"education": [{
+		"institution": "University",
+		"url": "https://institution.com/",
+		"area": "Software Development",
+		"studyType": "Bachelor",
+		"startDate": "2011-01-01",
+		"endDate": "2013-01-01",
+		"score": "4.0",
+		"courses": [
+			"DB1101 - Basic SQL"
+		]
+	}],
+	"awards": [{
+		"title": "Award",
+		"date": "2014-11-01",
+		"awarder": "Company",
+		"summary": "There is no spoon."
+	}],
+	"publications": [{
+		"name": "Publication",
+		"publisher": "Company",
+		"releaseDate": "2014-10-01",
+		"url": "https://publication.com",
+		"summary": "Description…"
+	}],
+	"skills": [{
+		"name": "Web Development",
+		"level": "Master",
+		"keywords": [
+			"HTML",
+			"CSS",
+			"JavaScript"
+		]
+	}],
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	}],
+	"interests": [{
+		"name": "Wildlife",
+		"keywords": [
+			"Ferrets",
+			"Unicorns"
+		]
+	}],
+	"references": [{
+		"name": "Jane Doe",
+		"reference": "Reference…"
+	}],
+	"projects": [{
+		"name": "Project",
+		"description": "Description…",
+		"highlights": [
+			"Won award at AIHacks 2016"
+		],
+		"keywords": [
+			"HTML"
+		],
+		"startDate": "2019-01-01",
+		"endDate": "2021-01-01",
+		"url": "https://project.com/",
+		"roles": [
+			"Team Lead"
+		],
+		"entity": "Entity",
+		"type": "application"
+	}]
+}
