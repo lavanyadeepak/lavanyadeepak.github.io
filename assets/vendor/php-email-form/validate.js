@@ -72,7 +72,12 @@
       }
     })
     .catch((error) => {
-      displayError(thisForm, error);
+      var msg = error.substring(7);
+      var parsedObject = JSON.parse(msg);
+      if (parsedObject.ok != null || parsedObject.ok != undefined)
+         displayError(thisForm, "Your message has been accepted");
+      else 
+         displayError(thisForm, "Uh Oh! There seems to be a technical glitch in accepting the message");
     });
   }
 
