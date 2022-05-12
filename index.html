@@ -26,11 +26,10 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/jquery-ui.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: iPortfolio - v3.6.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Template Name: MyResume - v4.7.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -39,40 +38,36 @@
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Deepak Kumar Vasudevan</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://www.twitter.com/lavanyadeepak" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="https://www.facebook.com/ldlavanyadeepak" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://www.instagram.com/lavydeepak" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/lavanyadeepak" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-bot"></i> <span>Skills</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Deepak Kumar Vasudevan</h1>
       <p>I'm <span class="typed" data-typed-items="Developer, Architect, Freelancer, Cloud Consultant"></span></p>
+      <div class="social-links">
+        <a href="https://www.twitter.com/lavanyadeepak" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/ldlavanyadeepak" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/lavydeepak" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/lavanyadeepak" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -80,7 +75,7 @@
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>About</h2>
@@ -88,10 +83,10 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img1.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Prime Skills</h3>
             <p class="fst-italic">
               ASP, PHP, ASP.Net, C#, VB.Net, ADO.Net, Web-forms, XML Web services, WCF Services, Web API, Windows Services
@@ -99,26 +94,28 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>lavanyadeepak.github.io</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 944 540 7856</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru IN`</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>Skype: live:deepak.vasudevan_1</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru KA IN</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>deepak.vasudevan@outlook.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Availability:</strong> <span>Please check</span></li> 
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>deepak.vasudevan@outlook.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
               </div>
             </div>
             <p>
               <Ol>
-              <li>Have hands-on experience in developing RIA using industry-grade tools and frameworks like jQuery/Kendo UI.
-                <li>Strong experience in designing intensive database-driven applications with performance tuning/optimization on Access 2003/2010, SQL Server 7.0/2000/2005/2008,2012 and 2016, MySQL 5.2, Oracle 18c and PostGRESQL 12.
-                  <li>Rich experience in source control and configuration management with Team Foundation Server, ClearCase, SVN and GIT.
-                    <li>Rich exposure on wide range of software development strategies (Waterfall and Agile) and capable of handling all stages of SDLC with ease, comfort, and flexibility.
-                      <li>Hands on experience in migrating web and windows-based applications and have handled all types of applications from intranet, extranet and business-critical internet applications.
+              <li>Have hands-on experience in developing RIA using industry-grade tools and frameworks like jQuery/Kendo UI.</li>
+                <li>Strong experience in designing intensive database-driven applications with performance tuning/optimization on Access 2003/2010, SQL Server 7.0/2000/2005/2008,2012 and 2016, MySQL 5.2, Oracle 18c and PostGRESQL 12.</li>
+                  <li>Rich experience in source control and configuration management with Team Foundation Server, ClearCase, SVN and GIT.</li>
+                    <li>Rich exposure on wide range of software development strategies (Waterfall and Agile) and capable of handling all stages of SDLC with ease, comfort, and flexibility.</li>
+                      <li>Hands on experience in migrating web and windows-based applications and have handled all types of applications from intranet, extranet and business-critical internet applications.</li>
             </Ol>
             </p>
           </div>
@@ -129,22 +126,16 @@
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Skills</h2>
           <p>Empowering your business and enriching it every moment making Technology as a definitive tool of Solutions Enabler for business objectives</p>
         </div>
 
-        <ol>
-          <li>Versatile in gathering user requirements, analyzing, and modeling the system towards the intended functionality achieving client satisfaction and exceeding customer expectations. Believer in technology as a tool to realize cost-effective and rewarding solutions for business requirements and the former should amend and customize itself for latter’s requirements.</li>
-          <li>Efficient in handling varied size teams ranging from Individual Contributor (IC) role to multi-geographies. Emphasis on systematic and process-driven approach for businesses towards realization of their objectives faster developing the rapport with employees and clients besides earning higher levels of credibility and references.</li>
-        </ol>
-
-
         <div class="row skills-content">
 
-          <div class="col-lg-6" data-aos="fade-up">
+          <div class="col-lg-6">
 
             <div class="progress">
               <span class="skill">HTML <i class="val">100%</i></span>
@@ -169,10 +160,10 @@
 
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill">ASP.NET (with MVC) <i class="val">80%</i></span>
+              <span class="skill">ASP.NET (with MVC) <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -186,7 +177,7 @@
             </div>
 
             <div class="progress">
-              <span class="skill">Azure/AWS DevOps <i class="val">55%</i></span>
+              <span class="skill">CI/CD (Azure Devops, GitLab, GitHub and AWS) <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -201,7 +192,7 @@
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Resume</h2>
@@ -209,13 +200,14 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
+          <div class="col-lg-6">
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Deepak Kumar Vasudevan</h4>
               <p><em>20+ years of professional experience in different heads as Software Engineer, Technical Lead, Software Architect and Technical Manager in Microsoft technologies. Open-Source Stack, Cloud based Development and Software Consulting</em></p>
               <ul>
-                <li>+91-944 540 7856</li>
+                <li>Bengaluru KA IN</li>
+                <li>Skype: live:deepak.vasudevan_1</li>
                 <li>deepak.vasudevan@outlook.com</li>
               </ul>
             </div>
@@ -229,157 +221,116 @@
             <div class="resume-item">
               <h4>Bachelor of Computer Science &amp; Engineering</h4>
               <h5>1995 - 1999</h5>
-              <p><em>Vellore Institute of Technology, Vellore IN</em></p>
+              <p>Vellore Institute of Technology, Vellore IN</p>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
-
             <div class="resume-item">
-                <div id="divWorkExp">
-                  <h3>.NET Architect at Velocity Fincrime Suite</h3>
-                  <div>
-                    <h5>May 2020-Mar 2021</h5>
-                    <p><em>Bengaluru KA-IN </em></p>
+             <h4>Sr.Software Engineer (C2H) at GuideHouse India Ltd</h4>
+              <h5>August 2020 to March 2021</h5>
+              <p><em>Bengaluru KA-IN </em></p> 
                     <ul>
-                      <li>Alacer India was the pilot initiative of Alacer Group (USA). Hence pioneered to help them setup the IT infrastructure and development environment at WeWork facilities in Bengaluru with the starting team of 6 development members and 1 UI designer.</li>
-                      <li>Comprehensive CI/CD pipelines right from developer check-in to their own VM in Azure Cloud both for application and database development</li>
-                      <li>Architected the Fedwire Parsing module for the suite.</li>
-                      <li>Streamlined the cross-cutting strategies of the application after the first draft of the application was handed over to Alacer by outgoing vendor from Far-East</li>
+                      <li>Was roped in to support on feature developments and bug fixes of an existing application framework for a few healthcare customers.</li>
+                      <li>Participate in the scrum ceremonies to understand the stories/tasks and then liaise with the technical team toward implementation of the same.</li>
+					  <li>Coordinate with QA and BA team to ensure the story’s acceptance criteria is met.</li>
                     </ul>
-                  </div>
-
-                  <h3>.NET Specialist at IdeaPlunge LLC</h3>
-                    <div>
-                    <h5>January 2019 - January 2020</h5>
-                    <p><em>Bengaluru KA-IN/Chennai TN-IN</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>.NET Specialist at IdeaPlunge LLC</h4>
+              <h5>January 2019 - January 2020</h5>
+              <p><em>Bengaluru KA-IN/Chennai TN-IN</em></p>
                     <ul>
                       <li>Overseeing and supporting the design and development of Floor Design Software for CCTV Planning</li>
                       <li>Developed and published web services with .NET Core for the Customer Portal of CCTV</li>
                     </ul>
-                  </div>
-
-                  <h3>Development Manager at SLK Global Solutions</h3>
-                  <div>
-                  <h5>May 2018 - December 2018</h5>
-                  <p><em>Bengaluru KA-IN</em></p>
-                  Converge is a bouquet of enterprise applications powering SLK Intranet and Extranet towards accomplishing business objectives. One of the applications in Converge is Empower.  Empower monitors the actual productivity and time spent by executives on the production floor. It helps view the operations holistically and identify opportunities for collaboration and optimization across the enterprise. It facilitates unlocking the full potential of the human capital and digital investments by identifying how teams spend time that impacts the customers and the enterprise.
-                </div>
-
-                <h3>Technical Manager at HCL Technologies</h3>
-                <div>
-                <h5>July 2016 - June 2018</h5>
-                <p><em>Noida UP-IN</em></p>
-                1. Responsible for coordinating, managing, and supporting of Value Portal (Ideating Module) along with its siblings Enterprise Projects Quality Assurance tool and PowerOfOne community initiative. 
-                2. Was also responsible for design of new extensions of the tool, architecting the prototypes and see through the engineering part of the module through its development phase to production. 
-                3. Coordinated with respective business units in gathering the requirements and managing the delivery with the set of teams reporting to me for each application. 
-                4. Create Project schedule, agreement, track project status and provide in-depth reports to engagement, management, and client team.
-                5. Effectively communicate project vision to team members and provide leadership cum mentoring to them.
-                6. Part of the design discussions in containerizing the modules and having them deployed to Azure.
-                </div>
-
-                <h3>Project Lead at HP Global (via Growell)</h3>
-                <div>
-                <h5>Jan 2016 - June 2018</h5>
-                <p><em>Bengaluru KA-IN</em></p>
-                Managing the Facets Claims and Rejections applications interfacing with the mainframe system and developed a windows service that generates daily report for the stake holders and business analysts to review.
-                </div>
-
-                <h3>.NET Specialist for Coteng (via ITBright)</h3>
-                <div>
-                <h5>Sep 2015 - Dec 2015</h5>
-                <p><em>Chennai TN-IN</em></p>
-                Application Proposal Review and Architecture Consultation for application for Paint Industry 
-              </div>
-
-              <h3>Project Leader at Softura</h3>
-              <div>
-              <h5>May 2015 - Sep 2015</h5>
-              <p><em>Chennai TN-IN</em></p>
-              IdeaConnect is an enterprise social networking platform for Magna corporation which has world-wide presence. The application features modules like crowd solving where users collaborate and compete with one another ushering to provide best solutions for problems posted on the website.
             </div>
+			
+		    <div class="resume-item">
+              <h4>Miscellany</h4>
+              <h5>Till Last 5 Years. Download Profile For Details</h5>
+              <table width="100%">
+			    <tr>
+				   <th>Organization</th>
+				   <th>Location</th>
+				   <th>Duration/Period</th>
+				</tr>
+			    <tr>
+				   <td>SLK Global Solutions</td>
+				   <td>Bengaluru KA-IN</td>
+				   <td>June 2018 to November 2018</td>
+				</tr>
+			    <tr>
+				   <td>HCL Technologies</td>
+				   <td>Chennai TN-IN/Noida UP-IN</td>
+				   <td>July 2016 to June 2018</td>
+				</tr>
 
-            <h3>Project Leader at Syntel</h3>
-            <div>
-            <h5>May 2013 - April 2015</h5>
-            <p><em>Chennai TN-IN, Pune MH-IN, Waltham, MA-USA, Des Plaines, IL-USA</em></p>
-            <Ul>
-              <Li>The MyEncompass application provides self-service capability to the consumer. Consumers can view their policy and agency info, pay bills, and retrieve/print ID cards. The application is designed to work across devices with particular focus on an optimal tablet experience.</Li>
-              <li>The Emergency Medical Services – Performance Improvement solution is a web-based product that allows Medical Directors of HealthONE to collect and analyze the Patient Care Report (PCR) data for its facilities. It facilitates performance review meetings between Medical Director and the Agencies. It allows agencies to add the PCR data in the system. The Website is accessible to both, HealthONE users (Internal) and Agency users (External) with appropriate rights (user oriented) on data and reports </li>
-            </Ul>
-          </div>
+<!-- 				
+			    <tr>
+				   <td>HP Enterprise (via Growell Softech)</td>
+				   <td>Bengaluru KA-IN</td>
+				   <td>January 2016 to June 2016</td>
+				</tr>	
+			    <tr>
+				   <td>Coteng (via ITBright)</td>
+				   <td>Chennai TN-IN</td>
+				   <td>October 2015 to January 2016</td>
+				</tr>
+			    <tr>
+				   <td>Softura</td>
+				   <td>Chennai TN-IN</td>
+				   <td>May 2015 to September 2015</td>
+				</tr>				
+			    <tr>
+				   <td>Syntel</td>
+				   <td>Waltham MA-USA, Northbrook IL-USA, Pune MH-IN, Chennai TN-IN</td>
+				   <td>May 2013 to April 2015</td>
+				</tr>
+			    <tr>
+				   <td>Dell (via Ordusion)</td>
+				   <td>Nashua NH</td>
+				   <td>June 2012 to April 2013</td>
+				</tr>	
+			    <tr>
+				   <td>Summit Energy (via Cyberthink)</td>
+				   <td>Louisville KY</td>
+				   <td>October 2011 to June 2012</td>
+				</tr>	
+			    <tr>
+				   <td>Verizon Data Services</td>
+				   <td>Chennai TN-IN, Irving TX-US</td>
+				   <td>November 2004 to February 2010</td>
+				</tr>					
+			    <tr>
+				   <td>Cybernet Synaptris</td>
+				   <td>Chennai TN-IN</td>
+				   <td>April 2004 to September 2004</td>
+				</tr>	
+			    <tr>
+				   <td>CS Software Solutions</td>
+				   <td>Chennai TN-IN</td>
+				   <td>August 2001 to April 2004</td>
+				</tr>	
+			    <tr>
+				   <td>GECIS (via Sakshi Automation Pvt Ltd)</td>
+				   <td>Gurgaon HR-IN</td>
+				   <td>March 2001 to July 2001</td>
+				</tr>				
+			    <tr>
+				   <td>Chrysolite Enterprises Pvt Ltd</td>
+				   <td>Chennai TN-IN</td>
+				   <td>September 2000 to March 2001</td>
+				</tr>
+			    <tr>
+				   <td>Agenda Net Marketing P Ltd</td>
+				   <td>Chennai TN-IN</td>
+				   <td>December 1999 to September 2000</td>
+				</tr>				
 
-          <h3>Project Leader at Ordusion Technologies</h3>
-          <div>
-          <h5>June 2012 - April 2013</h5>
-          <p><em>Nashua NH-USA, Louisville KY-USA</em></p>
-          <Ul>
-            <Li>PGRMA is an enterprise resource management tool that captures the current allocation statistics of various resources owned by supervisors spread across the strategic business units. It enables to efficiently plan for efficient utilization of these resources for their projects. The application has rich visual chart-based reporting for easier understanding, error-free and expedited decision-making for the user</Li>
-          </Ul>
-        </div>
-
-        <h3>Project Leader at Cyberthink Inc.</h3>
-        <div>
-        <h5>October 2011 - July 2012</h5>
-        <p><em>Louisville KY-USA</em></p>
-        <Ul>
-          <Li>Abatement is an enterprise planning module of Dashboard-View, an award-winning online sustainability and energy management software. It provides an elegant way to define various operational projects required for an enterprise to minimize energy and maximize the profits in the process besides providing quick birds-eye view charts for the various business scenarios.</Li>
-        </Ul>
-      </div>
-
-      <h3>Systems Analyst/Architect at Verizon Data Servies P Ltd</h3>
-      <div>
-      <h5>Nov 2004 - Feb 2010</h5>
-      <p><em>Chennai TN-India, Irving TX-USA</em></p>
-      <Ul>
-        <Li>Verizon Call Assistant is a hosted product for telephone subscribers helping them view and manage their accounts and billing. It has features like address book, voice message preview, email and text alerts. The application also has a desktop tool to complement the web offering.</Li>
-        <li>The objective of this enterprise file storage application is to provide secure storage, retrieval and exchange of the documents and files within the enterprise and in the process to saving budgets by avoiding email attachments, reducing downtime, legal and statutory compliance.</li>
-      </Ul>
-    </div>
-
-    <h3>Project Leader at Cybernet Corp/Synaptris Decisions</h3>
-    <div>
-    <h5>Mar 2004 - Nov 2004</h5>
-    <p><em>Chennai TN-India</em></p>
-    <Ul>
-      <Li>Synaptris Reporter is an enterprise reporting tool featuring impeccable information  delivery, analysis and decision-making. The tool encompasses the needs of generating reports across the enterprises and their customers.</Li>
-    </Ul>
-  </div>
-
-  <h3>Sr. Software Engineer at C S Software Solutions</h3>
-  <div>
-  <h5>AUg 2001 - April 2004</h5>
-  <p><em>Chennai TN-India</em></p>
-  <Ul>
-    <Li>Developed a Windows Scheduler managing the automated reports, cleanup tasks etc., Designed screens and developed Web forms for Stock Price Maintenance Screens. Published Interface web services with the host system. Extensively designed custom controls and used validation controls for the correct data check in the forms. Part of the team to participate in the coding of Data Access Manager. Coordinating the testing process and assisted in deploying the application onsite. Performance tuned SQL queries executed against the underlying database.</Li>
-  </Ul>
-</div>
-
-<h3>Onsite Consultant at Sakshi Automation</h3>
-<div>
-<h5>Mar 2001 - Sep 2001</h5>
-<p><em>New Delhi India</em></p>
-<Ul>
-  <Li>Wheels is an intranet application for GECIS facilitating online booking and follow-up of cabs. It also features an extensive reporting besides a cost-effective routing and planning.</Li>
-</Ul>
-</div>
-
-<h3>Software Engineer at 3rdAgenda</h3>
-<div>
-<h5>Dec 1999 - Sep 2001</h5>
-<p><em>Chennai TN-India</em></p>
-<Ul>
-  <Li>SIDCO is a corporate website of small industries export consortium initiative of Government of Tamil Nadu. It provides information regarding taxation benefits and also directory of members.</Li>
-</Ul>
-</div>
-
-                </div>
+-->				
+			  </table>
             </div>
-
-     
-     
-           
-
           </div>
         </div>
 
@@ -388,15 +339,15 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Contact</h2>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="row mt-1">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-4">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -412,34 +363,30 @@
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 944 540 7856</p>
+                <h4>Skype: live:deepak.vasudevan_1</h4>
+                <p></p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.5522488119!2d77.49085481306693!3d12.954294594412152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1635065950174!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+			  
             </div>
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
             <form action="https://formspree.io/f/mnqlyovo" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -448,6 +395,7 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+
           </div>
 
         </div>
@@ -460,52 +408,44 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
+      <h3>Deepak Kumar Vasudevan</h3>
+      <p>High Profile Internet Technology Architect</p>
+     <div class="social-links">
+        <a href="https://www.twitter.com/lavanyadeepak" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/ldlavanyadeepak" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/lavydeepak" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/lavanyadeepak" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Deepak Kumar Vasudevan</span></strong>
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer><!-- End Footer -->
 
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="assets/js/jquery-ui.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-  <script type="text/JavaScript">
-    $(function (){
-      $('#divWorkExp').accordion();
-    });
-  </script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LLEQLQE9ZL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LLEQLQE9ZL');
-</script>
 
 </body>
 
