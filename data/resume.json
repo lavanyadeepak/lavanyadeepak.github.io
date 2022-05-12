@@ -99,12 +99,12 @@
 		}
 	],
 	"work": [{
-			"summary": "Velocity FinCrime suite is a comprehensive application for regulatory bodies to combat against financial crimes like AML (Anti-Money Laundering), Terror Financing etc. The suite currently addresses the requirements of USA, India, Bangladesh, and Australia. ",
-			"website": "https://www.alacergroup.com/",
-			"name": "Alacer Group",
+			"summary": "Was roped in to support on feature developments and bug fixes of an existing application framework for a few healthcare customers. Participate in the scrum ceremonies to understand the stories/tasks and then liaise with the technical team toward implementation of the same. Coordinate with QA and BA team to ensure the story’s acceptance criteria is met.",
+			"website": "https://www.guidehouse.com/",
+			"name": "Guidehouse",
 			"location": "Bengaluru",
-			"position": "System Architect/Offshore Technical Lead",
-			"startDate": "2020-05-07",
+			"position": "SR.SOFTWARE ENGINEER (C2H) AT GUIDEHOUSE INDIA LTD",
+			"startDate": "2020-08-01",
 			"endDate": "2021-03-31",
 			"highlights": ["ASP.NET", "Core", "Web API", "Product"]
 		},
