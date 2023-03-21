@@ -95,7 +95,6 @@
 		<a href="https://github.com/lavanyadeepak" class="github"><i class="bx bxl-github"></i></a>
     <a href="https://mastodon.social/@lavanyadeepak" class="mastodon"><i class=" bx bxl-mastodon"></i></a>
         <a href="https://www.tumbrl.com/lavanyadeepak" class="tumblr"><i class=" bx bxl-tumblr"></i></a>
-        <a href="https://t.me/lavanyadeepak" class="tumblr"><i class=" bx bxl-telegram"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -296,70 +295,6 @@
 				   <td>Chennai TN-IN/Noida UP-IN</td>
 				   <td>July 2016 to June 2018</td>
 				</tr>
-
-<!-- 				
-			    <tr>
-				   <td>HP Enterprise (via Growell Softech)</td>
-				   <td>Bengaluru KA-IN</td>
-				   <td>January 2016 to June 2016</td>
-				</tr>	
-			    <tr>
-				   <td>Coteng (via ITBright)</td>
-				   <td>Chennai TN-IN</td>
-				   <td>October 2015 to January 2016</td>
-				</tr>
-			    <tr>
-				   <td>Softura</td>
-				   <td>Chennai TN-IN</td>
-				   <td>May 2015 to September 2015</td>
-				</tr>				
-			    <tr>
-				   <td>Syntel</td>
-				   <td>Waltham MA-USA, Northbrook IL-USA, Pune MH-IN, Chennai TN-IN</td>
-				   <td>May 2013 to April 2015</td>
-				</tr>
-			    <tr>
-				   <td>Dell (via Ordusion)</td>
-				   <td>Nashua NH</td>
-				   <td>June 2012 to April 2013</td>
-				</tr>	
-			    <tr>
-				   <td>Summit Energy (via Cyberthink)</td>
-				   <td>Louisville KY</td>
-				   <td>October 2011 to June 2012</td>
-				</tr>	
-			    <tr>
-				   <td>Verizon Data Services</td>
-				   <td>Chennai TN-IN, Irving TX-US</td>
-				   <td>November 2004 to February 2010</td>
-				</tr>					
-			    <tr>
-				   <td>Cybernet Synaptris</td>
-				   <td>Chennai TN-IN</td>
-				   <td>April 2004 to September 2004</td>
-				</tr>	
-			    <tr>
-				   <td>CS Software Solutions</td>
-				   <td>Chennai TN-IN</td>
-				   <td>August 2001 to April 2004</td>
-				</tr>	
-			    <tr>
-				   <td>GECIS (via Sakshi Automation Pvt Ltd)</td>
-				   <td>Gurgaon HR-IN</td>
-				   <td>March 2001 to July 2001</td>
-				</tr>				
-			    <tr>
-				   <td>Chrysolite Enterprises Pvt Ltd</td>
-				   <td>Chennai TN-IN</td>
-				   <td>September 2000 to March 2001</td>
-				</tr>
-			    <tr>
-				   <td>Agenda Net Marketing P Ltd</td>
-				   <td>Chennai TN-IN</td>
-				   <td>December 1999 to September 2000</td>
-				</tr>				
-
--->				
 			  </table>
             </div>
           </div>
@@ -393,16 +328,14 @@
               </div>
 
               <div class="phone">
-                <i class="bi bi-phone"></i>
-				<a href="skype:live:deepak.vasudevan_1?call"><h4>Skype me</h4></a>
+                <i class="bi bi-phone" style="margin-right:4px;"></i>
+					<a href="javascript:OpenMessenger('Skype','bGl2ZTpkZWVwYWsudmFzdWRldmFuXzE=');"><i class=" bx bxl-skype"></i></a>
+					<a href="javascript:OpenMessenger('Telegram','bGF2YW55YWRlZXBhaw==');""><i class=" bx bxl-telegram"></i></a>
+					<a href="javascript:OpenMessenger('Whatsapp','OTE5NDQ1NDA3ODU2');"><i class=" bx bxl-whatsapp"></i></a>
+					<a href="javascript:OpenMessenger('Signal','OTE5NDQ1NDA3ODU2');""><i class=" bi bi-signal"></i></a>
                 <p></p>
               </div>
-              
-              <div class="phone">
-                <i class=" bx bxl-telegram"></i>
-                                           <a href="https://t.me/lavanyadeepak"><h4>Instant Messenger</h4></a>
-                <p></p>
-              </div>                  
+                                
             </div>
 
           </div>
@@ -455,7 +388,6 @@
 		<a href="https://github.com/lavanyadeepak" class="github"><i class="bx bxl-github"></i></a>
     <a href="https://mastodon.social/@lavanyadeepak" class="mastodon"><i class=" bx bxl-mastodon"></i></a>
     <a href="https://www.tumbrl.com/lavanyadeepak" class="tumblr"><i class=" bx bxl-tumblr"></i></a>
-    <a href="https://t.me/lavanyadeepak" class="tumblr"><i class=" bx bxl-telegram"></i></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Deepak Kumar Vasudevan</span></strong>. All Rights Reserved
@@ -501,6 +433,37 @@
 	</script>
 	<!--End of Tawk.to Script-->
 
+    <script type="text/javascript">
+	   function OpenMessenger(sender, value)
+	   {
+	       var targetURL = "";
+		   var actualValue = atob(value);
+	       switch (sender)
+		   {
+		       case "Whatsapp":
+			             var waURL = "https://api.whatsapp.com/send/?phone="+actualValue+"&text=&type=phone_number&app_absent=0";
+						 targetURL = waURL;
+						 break;
+			   case "Telegram":
+			             var tgURL = "https://t.me/"+actualValue;
+						 targetURL = tgURL;
+			             break;
+			   case "Signal":
+			             var sgURL = "https://signal.me/#p/"+actualValue;  
+						 targetURL = sgURL;
+			             break;
+			   case "Skype":
+			             var skypeURL = "skype:"+actualValue+"?call";
+						 targetURL = skypeURL;
+			             break;
+			   default: 
+			             break;
+		   }
+		   
+		   $("#ifrHiddenIframe").attr("src",targetURL);
+	   }
+	</script>
+	<iframe src="blank.html" width="0" height="0" id="ifrHiddenIframe">
 </body>
 
 </html>
