@@ -462,10 +462,9 @@
 			             break;
 		   }
 		   
-		   $("#ifrHiddenIframe").attr("src",targetURL);
+		   var win = window.open(targetURL,"newWin","width=0;height=0");
 	   }
 	</script>
-	<iframe src="blank.html" width="0" height="0" id="ifrHiddenIframe">
 </body>
 
 </html>
