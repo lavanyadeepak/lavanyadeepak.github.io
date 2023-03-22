@@ -461,16 +461,18 @@
 			   default: 
 			             break;
 		   }
-		   
-		       var win;
-		   
-			   let myPromise = new Promise(function(myResolve, myReject) {
-				    win = window.open(targetURL,"newWin","width=0;height=0");
-				});
 
-				myPromise.then(
-					win.close();
-				);
+		var win;		
+		
+	   let myPromise = new Promise(function(onSuccess, onFailure) {
+	     win = window.open(targetURL,"newWin","width=0;height=0");
+		});
+
+		myPromise.then(
+		  function(value) {win.close()},
+		  function(error) {win.close()}
+		);
+		
 	   }
 	</script>
 </body>
