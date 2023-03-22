@@ -462,19 +462,22 @@
 			             break;
 		   }
 
-		var win;		
-		
 	   let myPromise = new Promise(function(onSuccess, onFailure) {
-	     win = window.open(targetURL,"newWin","width=0;height=0");
+			var ifrm = document.createElement("iframe");
+			ifrm.setAttribute("src", targetURL);
+			ifrm.style.width = "0px";
+			ifrm.style.height = "0px";
+			document.getElementById("ifrPlaceHolder").appendChild(ifrm);
 		});
 
 		myPromise.then(
-		  function(value) {win.close()},
-		  function(error) {win.close()}
+		  function(value) {$("#ifrPlaceHolder").html()},
+		  function(error) {$("#ifrPlaceHolder").html()}
 		);
-		
 	   }
 	</script>
 </body>
-<iframe src="blank.html" name="newWin" id="newWin" width="0" height="0"></iframe>
+
+<div id="ifrPlaceHolder"></div>
+
 </html>
