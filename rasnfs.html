@@ -1,0 +1,233 @@
+<h3>Remote Access and Network File System (RASNFS)</h3>
+
+  <table align=center width=100% border=1>
+
+<tr><th colspan="3" class="notes">The RAS Team</th></tr>
+<tr><th>Name</th><th>In Brief</th>
+
+<tr><td>Amarender Babu Kaveti</td>
+<td>
+  We would put him as the <i>heart-beat</i> of RASNFS. The GUI design of the Administrative Panel, Client Control Panel -- all spoke his hardwork. Additionally, the foolproof Application Authentication mechanisms and Security was pioneered by him and myself.
+</td>
+</tr>
+
+<tr><td>Deepak Kumar Vasudevan</td>
+<td>Well! It's about me -- While, to put straight, RASNFS born out of two persons' brains -- Amar and Deepak, thanks to many IEEE magazines and a couple of writers in Windows 2000 Magazines who really inspired us with this topic. I have been entrusted with the Proxy Service, FTP service in the application. Additionally, the Application Security Stuff, which remained the most critical backbone of the application, was shared by me and Amar.</td>
+</tr>
+
+<tr><td>Madhan Mohan Reddy</td>
+<td>He was coordinating with VijayaBhaskar Reddy to get things done for the HTTP module and the associated Web Browsing Services for the application. The most user friendly and developer friendly User Documentation and API was created and maintained thanks to this guy.</td></tr>
+
+<tr><td>Vijaya Bhaskara Reddy</td>
+<td>The efforts in getting HTTP service done and getting integrated to the host application, needs special appreciation, since HTTP module remains the most used section of the application. The use of Network Resource as a local resource using sections of WinVNC API and understanding and implementation of the same, the credit of which should be attributed to him.</td>
+</tr>
+
+</table>
+
+<h2>Administration and Other Details(Miscellany)</h2>
+<ul>
+   <li>Guide Name: R. Saraswathy
+   <li>Co-ordinator: M. Uma Maheshwari
+   <li>Project Done At: WorkGroup Division, T.S. Santhanam        Computing Center, Vellore Engineering College, Vellore.
+   <li>Project Duration: Six Months(Final Semester Project)</li>
+</ul>
+
+<h2>Overview</h2>
+
+<font size=+3><i>A</i></font> Client will dial up a server and after getting authenticated,it is granted access to the resources to which it has proper permissions set. We here concenterate mostly on the <i>file</i> resources, though also we cover HTTP and related services, Telnet, Network Services like filesharing and printing. The difference between an ordinary LAN network and this setup is the distance(span) of the network(viz.) Area of Coverage. A LAN network is constrained to a very small distance, but this scenario breaks that constraint. <br><br>However we also would like to argue that our setup distinctly differs from that of an ISP dialup services, since all the services are provided here under one capsule(single shell).
+
+<blockquote>
+<fieldset>
+<legend>Highlight</legend>
+<br>We would also pinpoint a subtle and interesting feature with our setup. All ISP related and remote network services are accessible via a very simple Dialup Networking Setup. Perhaps, one kind of a poormans' Virtual Private Network.
+<br><br>
+</fieldset>  
+</blockquote>
+
+<p><font size=+3><i>T</i></font>he dialup server in turn hosts the DNS Service to route the data flow. While the above forms the kernel engine of the project itself, the following services were offered to the common users.
+<ol>
+ <li>Web Browsing(Text-browsing as with Lynx Browser or GUI browsing as with IE/Netscape browsers;
+  <li>Email Services;
+  <li>Newsgroup Services;
+  <li>Web Hosting</li>
+</ol>
+
+Now we would present some details about the Security Systems being adopted:
+
+<ul><li>Password;<li>Callback.</li></ul>
+
+<h6>Password:</h6>
+
+The usual procedure of username and password combination as is found in any other system.
+
+<h6>Callback:</h6>
+
+The server on recieving the call, notes the caller-id number and hangs up. It again dials the client at the noted caller-id number. This way forgery is eliminated. <CITE>(Theoretical Presentation).</CITE>
+
+Our Project Could be Implemented to any distance as it would run on telephone lines. However as the number of clients increase, there is a proportionate performance degradation as the lines start to getting 
+clogged. A higher bandwidth line, though costs high, also pays high. Our Project currently ran with the following operating systems that was available in our lab:
+
+<ol>
+
+<li>Windows NT 4.0
+
+<ol><li>Workstation 4.0;<li>Server 4.0;</li></ol>
+
+<li>Red Hat Linux;
+
+<li>DEC OSF/1 Unix;</li>
+
+</ol>
+
+<p><b>A Glimpse of the Services 
+
+Offered</b><p>
+
+<dl>
+
+<dt>Web Browsing:<dd>A Big Corporate Network can enjoy the Internet and 
+
+    its unrestricted information floods with just one single connection. Of 
+
+    course, the proxy server. The proxy server would be running over the server 
+
+    from which the other clients would be benefitting.
+
+<dt>Email and NewsGroup Services:<dd>A dedicated and customised email daemon may be run 
+
+    at the server via which the customers may be able to communicate with the 
+
+    friends and others via email. Intranet Messaging may also be possible with 
+
+    little modifications. Even NewsGroups may be setup. Though most of the 
+
+    features are available as third party controls or as system accessories, our 
+
+    main aim was to provide a one-capsule solution to the corporate needs. 
+
+    Though it was purely an academic project, a good thought and still more 
+
+    refinement may render it very useful more many corporate networks with less 
+
+    investment and rich harvests. 
+
+<dt>HTTP Service:<dd>The very familiar HTTP service which most of us 
+
+    use. The default port in operation is port 80(which most of the webmasters 
+
+    stick on to!). This facility is also available with this setup.</dd> 
+
+</dl><p>
+
+<h6>PLUS!</h6>As we were doing this project <em>Remote Access and Network File System</em>, our colleagues <ol><li>Naveenraj S<li>Magesh K.<li>Subbareddy P.V.<li>Sarathbabu R.N.</li></ol>were doing a project on <em>Remote Control of LAN Network</em>, via which you can 
+
+operate a remote desktop from your machine. From an administrative aspect, this 
+
+may be used to trap your students who are misusing Inet visiting  <i>prohibited</i> web sites. Though such a solution is also available now, 
+
+at hardware level, this one is based purely on software. Perhaps a software equivalent implementation is a cost-effective solution with low-end investments.
+
+<h6><u>PLEASE NOTE:</u></h6>This is only a fraction of the abstract or the project report as was submitted to the department. A complete hardcopy of the project can be had off from any of the project team members as listed in the table above. We would 
+
+be pleased to hear your appreciation via email or snail mail.<p>
+
+<h6>Thanks!</h6>We would like to take this opportunity to 
+
+thank various people who had helped us throughout this project and hence make it 
+
+a great success. Very many thanks to our
+
+<blockquote>
+
+<ul>
+
+<li>Guide;
+
+<li>Coordinator;
+
+<li>Department Staff and Faculty;
+
+<li>Parents
+
+<li>Inet Community -- Particularly
+
+<ul>
+
+<li>WWW Spiders like Altavista, Yahoo!, MSN
+
+<li>Mr. Zubair Ahmad(Aris Corporation)</li>
+
+</ul></li>
+
+</ul>
+
+</blockquote>
+
+<p>With this seed, we hope we would be able to march 
+
+forward this <em>Information Superhighway</em> to hoist the 
+
+flags of Victory whereever we proceed. <p><hr><p>
+
+<h2>Interact!:</h2>
+
+<p>Do you need more info about RASNFS? Want to send us your 
+
+views or improvements. You may contact any of us at the following 
+
+contact points. We would be very glad to clarify your doubts and would definitely respond to your suggestions...  For your convenience, we've many feedback centers through out this website. You may drop in any one and send a word to us...  <em>Keep Surfing!</em><br><br>
+  The project <em>Remote Access and Network File System</em> is copyrighted with the RASNFS Team and Vellore Engineering College, Tamil Nadu, India.
+
+<hr>
+
+<h2>Dial In...</h2>
+   Send your clarifications to us via Contact Form.	
+		</td>
+	</tr>
+</table>
+
+            </div>
+          </div>
+
+          </div>
+      </div>   
+</div>
+
+<div id="divPhotoAlbums"></div>
+
+  <script>
+      
+      $("#hllLaunchPhotoGallery").click(function ()
+          {
+                var url = "http://lavanyadeepak.co.nf/studio.html";
+                var $dlgChantDialog = $('<div></div>')
+               .html('<iframe style="border: 0px; " src="' + url + '" width="100%" height="100%"></iframe>')
+               .dialog({
+                   autoOpen: false,
+                   modal: true,
+                   height: (screen.availHeight-200),
+                   width: (screen.availWidth-100),
+                   title: "LD Studio",
+                   buttons:{
+                       "Thank you for your interest":function (){
+                          $ (this).html("");
+                          $( this ).dialog( "close" );
+                       }
+                   }
+               });
+              
+              $dlgChantDialog.dialog('open');
+             return (false);
+          });
+      
+      
+	  function AcknowledgeResumeDisplayRequest()
+	  {
+		  $.blockUI(
+			{ 
+				message: 'Thanks for your interest in my profile. Kindly drop in a request via the Contact Form. I would get back to you at the earliest.'
+			});
+		   setTimeout($.unblockUI, 2000);
+	  }
+      
+      
