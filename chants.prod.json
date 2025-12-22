@@ -1,0 +1,917 @@
+[
+  {
+    "chantname": "Samayapuram",
+    "chanturl": "https://audio.jukehost.co.uk/c08Y9BVNVypRbYFYpyaaFQ0yJ5waFGn0",
+    "category": "Amman"
+  },
+  {
+    "chantname": "Gayatri Mantra",
+    "chanturl": "https://audio.jukehost.co.uk/t5GXnjWEuZI86VUdKFqF2Mn0VavFz3QV",
+    "category": "Gayatri"
+  },
+  {
+    "chantname": "Hanuman Chaleesa",
+    "chanturl": "https://audio.jukehost.co.uk/MMqW837zMk4yqDWHfuZVIvGmg51FJ5Ip",
+    "category": "Hanuman"
+  },
+  {
+    "chantname": "Hanuman Mantra",
+    "chanturl": "https://audio.jukehost.co.uk/5T9NOPYC16aOcElxjpCdwRa5bPj0xOW2",
+    "category": "Hanuman"
+  },
+  {
+    "chantname": "Kanakadhara Stotram",
+    "chanturl": "https://audio.jukehost.co.uk/PBuSxEhsDU7tNsj3Fi0prBQ2lFMoMEsv",
+    "category": "Lakshmi"
+  },
+  {
+    "chantname": "Lakshmyashtottaram",
+    "chanturl": "https://audio.jukehost.co.uk/Wus9pTJq4uMD2czlmMjolr7dMMDxhsSX",
+    "category": "Lakshmi"
+  },
+  {
+    "chantname": "Kandaranubooti",
+    "chanturl": "https://audio.jukehost.co.uk/NXFDXsBsS7MJJa8cy3QfMg6l1X5xYhLM",
+    "category": "Murugan"
+  },
+  {
+    "chantname": "Kandashastikavacham",
+    "chanturl": "https://audio.jukehost.co.uk/gNA2eYlUQRJRdvLiM1W2BPMamkjUhAbH",
+    "category": "Murugan"
+  },
+  {
+    "chantname": "Narayaneeyam 001",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/001 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 002",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/002 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 003",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/003 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 004",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/004 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 005",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/005 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 006",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/006 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 007",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/007 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 008",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/008 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 009",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/009 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 010",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/010 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 011",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/011 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 012",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/012 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 013",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/013 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 014",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/014 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 015",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/015 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 016",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/016 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 017",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/017 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 018",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/018 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 019",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/019 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 020",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/020 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 021",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/021 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 022",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/022 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 023",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/023 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 024",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/024 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 025",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/025 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 026",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/026 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 027",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/027 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 028",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/028 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 029",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/029 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 030",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/030 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 031",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/031 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 032",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/032 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 033",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/033 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 034",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/034 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 035",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/035 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 036",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/036 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 037",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/037 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 038",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/038 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 039",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/039 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 040",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/040 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 041",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/041 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 042",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/042 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 043",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/043 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 044",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/044 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 045",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/045 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 046",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/046 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 047",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/047 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 048",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/048 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 049",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/049 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 050",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/050 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 051",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/051 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 052",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/052 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 053",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/053 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 054",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/054 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 055",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/055 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 056",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/056 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 057",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/057 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 058",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/058 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 059",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/059 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 060",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/060 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 061",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/061 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 062",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/062 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 063",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/063 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 064",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/064 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 065",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/065 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 066",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/066 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 067",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/067 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 068",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/068 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 069",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/069 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 070",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/070 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 071",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/071 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 072",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/072 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 073",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/073 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 074",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/074 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 075",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/075 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 076",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/076 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 077",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/077 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 078",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/078 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 079",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/079 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 080",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/080 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 081",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/081 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 082",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/082 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 083",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/083 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 084",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/084 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 085",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/085 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 086",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/086 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 087",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/087 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 088",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/088 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 089",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/089 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 090",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/090 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 091",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/091 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 092",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/092 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 093",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/093 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 094",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/094 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 095",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/095 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 096",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/096 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 097",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/097 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 098",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/098 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 099",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/099 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Narayaneeyam 100",
+    "chanturl": "https://127.0.0.1:5500/chants/Narayaneeyam/100 Narayaneeyam.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Dasharatha Stotram",
+    "chanturl": "https://audio.jukehost.co.uk/EJoH2TmJUUngkh6e9oeVYSNB4HT37do0",
+    "category": "Shani"
+  },
+  {
+    "chantname": "Neelanchana",
+    "chanturl": "https://audio.jukehost.co.uk/5Z3J5BOH3W6Q63nxsvJOtt3OymiL3Fr5",
+    "category": "Shani"
+  },
+  {
+    "chantname": "Aadityahrudayam",
+    "chanturl": "https://audio.jukehost.co.uk/VoH5DnORFgZRex4sKs2AbceOeqKlH0qp",
+    "category": "Surya"
+  },
+  {
+    "chantname": "Aadityahrudayam Core",
+    "chanturl": "https://audio.jukehost.co.uk/D0P7UVJCHn3GuIRr2n5Tei7krOsdTsr6",
+    "category": "Surya"
+  },
+  {
+    "chantname": "Aadityahrudayam Dhyanam",
+    "chanturl": "https://audio.jukehost.co.uk/Lf3UbWApGIiuyOgaynK4ZYdvrPbXBIaK",
+    "category": "Surya"
+  },
+  {
+    "chantname": "Aadityahrudayam Phala",
+    "chanturl": "https://audio.jukehost.co.uk/z4NeuVuVAK1YVCNohXHvUgHEOby1DCvY",
+    "category": "Surya"
+  },
+  {
+    "chantname": "Annapoorna Stotram",
+    "chanturl": "https://audio.jukehost.co.uk/ihY1QveC1yu1nysvAirmx8nL6UTOabEs",
+    "category": "Parvathy"
+  },
+  {
+    "chantname": "Mylai Karpagam",
+    "chanturl": "https://audio.jukehost.co.uk/M1771b42JXDRCQMxargcNUnxxlOEmPX0",
+    "category": "Parvathy"
+  },
+  {
+    "chantname": "Varuna",
+    "chanturl": "https://audio.jukehost.co.uk/jSD80g799XCDH94QuxrigxAKCNkCT5Fm",
+    "category": "Varuna"
+  },
+  {
+    "chantname": "Sivapuranam",
+    "chanturl": "https://audio.jukehost.co.uk/Okr9pKcHxzrbo7pSt2YDZES2mHTfNppQ",
+    "category": "Shiva"
+  },
+  {
+    "chantname": "Rudram Chamakam",
+    "chanturl": "https://audio.jukehost.co.uk/brUfX4SVzEqKpf1dhUonPaT6wS8lmRnc",
+    "category": "Shiva"
+  },
+  {
+    "chantname": "Triambakam",
+    "chanturl": "https://audio.jukehost.co.uk/lUhTnDctQMycPSlaNlcnjPSL3pEpdYwM",
+    "category": "Shiva"
+  },
+  {
+    "chantname": "Kaamaasikaashtakam",
+    "chanturl": "https://audio.jukehost.co.uk/ObXgOL2pLsvl96Skykkwkz1Ft8AXNiAY",
+    "category": "Narasimha"
+  },
+  {
+    "chantname": "Karavalambam",
+    "chanturl": "https://audio.jukehost.co.uk/S5z9P9hrknUQZeQW6OhwlwyVNYQWaj6C",
+    "category": "Narasimha"
+  },
+  {
+    "chantname": "Sahasranamam",
+    "chanturl": "https://audio.jukehost.co.uk/OwMfV5p0UOZlfvueBKX3am2lBg1Qi76r",
+    "category": "Narasimha"
+  },
+  {
+    "chantname": "Sri Lakshmi Narasimha Infection Control",
+    "chanturl": "https://audio.jukehost.co.uk/s1EfOF2G61WpwQ11VyNaHjfvxAfWKWep",
+    "category": "Narasimha"
+  },
+  {
+    "chantname": "Ugramveeram",
+    "chanturl": "https://audio.jukehost.co.uk/KaAInd7LyYWXntpxFP4KTwK98AKbeRt9",
+    "category": "Narasimha"
+  },
+  {
+    "chantname": "Sri Vishnu Core",
+    "chanturl": "https://audio.jukehost.co.uk/B56NT7unL1cAY6tgM01CepRsc8Smz3Ba",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Sri Vishnu Dhyanam",
+    "chanturl": "https://audio.jukehost.co.uk/qknoxhSEb1qnLBekIjdcjBQpuPoOwzWS",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Sri Vishnu Phalasruthi",
+    "chanturl": "https://audio.jukehost.co.uk/s7XgVVkQzsNBI54U4M2OrpPzGvAuRrWn",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Sri Vishnu Ashwini",
+    "chanturl": "https://audio.jukehost.co.uk/nFUnQdt8cREFAa3335dMciNNIo9ftKPe",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Sri Vishnu Swathi",
+    "chanturl": "https://audio.jukehost.co.uk/MMU8WA7wBfmFiTAJde0dKkr0YKsD3W64",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Sri Vishnu Uthirattadhi",
+    "chanturl": "https://audio.jukehost.co.uk/SHkUHmgduOMtufWumcrl8CASjVq9X76D",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Aim",
+    "chanturl": "https://audio.jukehost.co.uk/NaN2k0b6jy1aRebfPbcIO1RUiOomjw2a",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Durga Devi Yainamaha Om Namah Shivaya",
+    "chanturl": "https://audio.jukehost.co.uk/INQJOHxNfEHxzT1nv0QFFfZqTRjYjAbC",
+    "category": "Parvathy"
+  },
+  {
+    "chantname": "Dvayam",
+    "chanturl": "https://audio.jukehost.co.uk/8lt62WIIchRGqfxV4Rjp1dAqaOFuw4qL",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Gam",
+    "chanturl": "https://audio.jukehost.co.uk/w5GDpf6cQkBuyH8zstKus27c7cjnmYn6",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Ganeshaya Namaha",
+    "chanturl": "https://audio.jukehost.co.uk/mTaD5IXhsRUe7UcgvQc5ZeV979oMTGmQ",
+    "category": "Ganapathi"
+  },
+  {
+    "chantname": "Ham",
+    "chanturl": "https://audio.jukehost.co.uk/Ar2EBHSgkKweq4WrZuejr147uZzveqtw",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Hanumate",
+    "chanturl": "https://audio.jukehost.co.uk/AemPcKj66yGT4qGtfxq58ILhkt01JSo5",
+    "category": "Hanuman"
+  },
+  {
+    "chantname": "Hraam",
+    "chanturl": "https://audio.jukehost.co.uk/HDqDzQxSIC16PfofvKS6y8t6ciUv6apX",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Hrim",
+    "chanturl": "https://audio.jukehost.co.uk/2tmQwJRPyhfmFW3pjBIuvOo9Etkrk3Xj",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Hroum",
+    "chanturl": "https://audio.jukehost.co.uk/E2RQA4PXxOkHmRTsTA2Hcv42SUlit0zT",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Hrum",
+    "chanturl": "https://audio.jukehost.co.uk/E2RQA4PXxOkHmRTsTA2Hcv42SUlit0zT",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Klim",
+    "chanturl": "https://audio.jukehost.co.uk/7aAJLBvbFCrJ88cxtDjohH1WBcuoKnYw",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Om",
+    "chanturl": "https://audio.jukehost.co.uk/QbvNthDY07w2XDjVXaGT7JB6sJwUeDm4",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Om Namah Shivaya",
+    "chanturl": "https://audio.jukehost.co.uk/5i8Z7LSdvdUa47pqspzIpdv8I1V3WELT",
+    "category": "Shiva"
+  },
+  {
+    "chantname": "Om Namo Bhagavate Vasudevaya",
+    "chanturl": "https://127.0.0.1:5500/chants/ssrf/omnamobhagavatevasudevaya.mp3",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Om Namo Venkatesaya",
+    "chanturl": "https://audio.jukehost.co.uk/SJGg3LmUVCqvfr87huTerjBJaeo6DOMk",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Om Sham",
+    "chanturl": "https://audio.jukehost.co.uk/89Af138ITxv1fdtMS3ImdJydsZXyviBt",
+    "category": "Shani"
+  },
+  {
+    "chantname": "Sham",
+    "chanturl": "https://audio.jukehost.co.uk/89Af138ITxv1fdtMS3ImdJydsZXyviBt",
+    "category": "Beej"
+  },
+  {
+    "chantname": "Shree Ram",
+    "chanturl": "https://audio.jukehost.co.uk/AdTOE14jFwZPGwkg3lrXnnLhlDWuONhF",
+    "category": "Rama"
+  },
+  {
+    "chantname": "Shuklam",
+    "chanturl": "https://audio.jukehost.co.uk/KUtFY3qcEcfCZhcCPyqYtkzIlfCkHX3R",
+    "category": "Ganapathi"
+  },
+  {
+    "chantname": "Sri Datta",
+    "chanturl": "https://audio.jukehost.co.uk/edS8T6Gy96wG8YExQp9MlAeDx21jMmVi",
+    "category": "Dattatreya"
+  },
+  {
+    "chantname": "Sudarshana Ashtakam",
+    "chanturl": "https://audio.jukehost.co.uk/lkfjX4aehKGPAScfxXxo1KKD39om3zaq",
+    "category": "Vishnu"
+  },
+  {
+    "chantname": "Thiruppavai 01",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/01.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 02",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/02.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 03",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/03.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 04",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/04.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 05",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/05.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 06",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/06.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 07",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/07.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 08",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/08.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 09",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/09.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 10",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/10.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 11",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/11.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 12",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/12.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 13",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/13.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 14",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/14.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 15",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/15.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 16",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/16.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 17",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/17.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 18",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/18.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 19",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/19.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 20",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/20.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 21",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/21.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 22",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/22.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 23",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/23.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 24",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/24.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 25",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/25.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 26",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/26.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 27",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/27.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 28",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/28.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 29",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/29.mp3",
+    "category": "Andal"
+  },
+  {
+    "chantname": "Thiruppavai 30",
+    "chanturl": "https://127.0.0.1:5500/chants/thiruppavai/30.mp3",
+    "category": "Andal"
+  }
+]
