@@ -1,0 +1,55 @@
+name: Keep Chants Alive
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC (weekly — safer than monthly)
+  workflow_dispatch:     # Allows manual triggering for testing
+
+jobs:
+  access-urls:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Access each chant URL
+        run: |
+          python - <<EOF
+          import json
+          import requests
+          import time
+
+          successes = 0
+          failures = 0
+
+          with open('chants.prod.json', 'r') as f:
+              data = json.load(f)
+
+          print(f"Starting access of {len(data)} chant files...\n")
+
+          for item in data:
+              url = item['chanturl']
+              try:
+                  # Use HEAD request — faster, no body downloaded, still resets inactivity timer
+                  response = requests.head(url, allow_redirects=True, timeout=30)
+                  status = response.status_code
+                  print(f'Accessed {url} - Status: {status}')
+                  if status == 200:
+                      successes += 1
+                  else:
+                      failures += 1
+              except Exception as e:
+                  print(f'Error accessing {url}: {e}')
+                  failures += 1
+              time.sleep(1)  # Polite delay
+
+          print(f"\nSummary: {successes} successful, {failures} failed")
+          EOF
