@@ -1,0 +1,1 @@
+Note: This is my personal website only. I don't conduct business transactions through this site. If someone claims otherwise using my name, please report it to the appropriate authorities.
