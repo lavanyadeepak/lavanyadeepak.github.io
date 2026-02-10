@@ -1,0 +1,44 @@
+#EXTM3U
+
+#EXTINF:-1,Aditya Hridayam Dhyanam
+./chants/navagraha/soorya/aadityahrudayam_dhyanam.mp3
+
+#EXTINF:-1,Aditya Hridayam Core (12 Times)
+#EXTVLCOPT:play-and-pause
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+./chants/navagraha/soorya/aadityahrudayam_core.mp3
+
+#EXTINF:-1,Aditya Hridayam Phalashruti
+./chants/navagraha/soorya/aadityahrudayam_phala.mp3
+
+#EXTINF:-1,Swati Sahasranamam (11 Times)
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+./chants/srivishnu/star/sv_swathi.mp3
+
+#EXTINF:-1,Full Vishnu Sahasranamam
+./chants/srivishnu/svcore_ms_dhyanam.mp3
+./chants/srivishnu/svcore_ms_core.mp3
+./chants/srivishnu/svcore_ms_phalasruthi.mp3
+
+#EXTINF:-1,Sri Lakshmi Narasimha Sahasranamam (Continuous Loop)
+#EXTVLCOPT:loop
+./chants/srilakshminarasimha/sahasranamam.mp3

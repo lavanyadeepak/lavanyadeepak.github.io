@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavanya Deepak - Unified Website Sitemap & Architecture</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    color: #2d3748;
+    border-left: 5px solid #667eea;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.section h3 {
+    color: #4a5568;
+    margin: 25px 0 15px 0;
+    font-size: 1.3em;
+}
+
+/* Sitemap Tree */
+.sitemap {
+    background: #f7fafc;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.nav-item {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.nav-item:hover {
+    border-color: #667eea;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+.nav-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #667eea;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title::before {
+    content: "▸";
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.sub-items {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.sub-item {
+    padding: 8px 15px;
+    margin: 5px 0;
+    background: #edf2f7;
+    border-left: 3px solid #cbd5e0;
+    border-radius: 4px;
+    font-size: 0.95em;
+    color: #2d3748;
+}
+
+.sub-item::before {
+    content: "→";
+    margin-right: 8px;
+    color: #667eea;
+}
+
+.nested-sub-item {
+    margin-left: 25px;
+    padding: 6px 12px;
+    background: #f7fafc;
+    border-left: 2px solid #e2e8f0;
+    font-size: 0.9em;
+    color: #4a5568;
+}
+
+/* Decision Cards */
+.decisions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.decision-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.decision-card h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+}
+
+.decision-card ul {
+    list-style: none;
+}
+
+.decision-card li {
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.decision-card li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Priority Matrix */
+.priority-matrix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.priority-box {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #e2e8f0;
+}
+
+.priority-high {
+    background: #fff5f5;
+    border-color: #fc8181;
+}
+
+.priority-medium {
+    background: #fffaf0;
+    border-color: #fbd38d;
+}
+
+.priority-box h4 {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.priority-high h4 {
+    color: #c53030;
+}
+
+.priority-medium h4 {
+    color: #c05621;
+}
+
+.priority-box ul {
+    list-style: none;
+}
+
+.priority-box li {
+    padding: 5px 0;
+    padding-left: 15px;
+    position: relative;
+    font-size: 0.95em;
+}
+
+.priority-box li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+}
+
+/* Recommendations */
+.recommendations {
+    background: #f0fff4;
+    border: 2px solid #9ae6b4;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.recommendations h4 {
+    color: #22543d;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.recommendation-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-left: 4px solid #48bb78;
+}
+
+.recommendation-item strong {
+    color: #22543d;
+}
+
+/* Footer */
+.footer {
+    background: #f7fafc;
+    padding: 30px;
+    text-align: center;
+    color: #4a5568;
+    border-top: 1px solid #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.8em;
+    }
+    
+    .decisions {
+        grid-template-columns: 1fr;
+    }
+    
+    .priority-matrix {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>LAVANYA DEEPAK</h1>
+        <p>Unified Website Architecture & Sitemap</p>
+    </div>
+    
+    <div class="content">
+        <!-- VISUAL SITEMAP -->
+        <div class="section">
+            <h2>Visual Sitemap - Proposed Structure</h2>
+            <div class="sitemap">
+                <div class="nav-item">
+                    <div class="nav-title">Home</div>
+                    <div class="sub-items">
+                        <div class="sub-item">Hero Section - Brand Identity</div>
+                        <div class="sub-item">Featured Work Highlights</div>
+                        <div class="sub-item">Latest Blog Posts Preview</div>
+                        <div class="sub-item">Quick Links to Major Projects</div>
+                        <div class="sub-item">Call-to-Action Sections</div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <div class="nav-title">About</div>
+                    <div class="sub-items">
+                        <div class="sub-item">About Me - Professional Journey</div>
+                        <div class="sub-item">Photo Tour - Visual Gallery</div>
+                        <div class="sub-item">The LD Story - A Word About My Nickname</div>
+                        <div class="sub-item">Values & Philosophy</div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <div class="nav-title">Work & Projects</div>
+                    <div class="sub-items">
+                        <div class="sub-item">LD Labs Overview</div>
+                        <div class="nested-sub-item">GitHub Repositories Showcase</div>
+                        <div class="nested-sub-item">Featured Technical Projects</div>
+                        <div class="nested-sub-item">Open Source Contributions</div>
+                        <div class="sub-item">Current Projects</div>
+                        <div class="sub-item">Archived Work</div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <div class="nav-title">Publications & Writing</div>
+                    <div class="sub-items">
+                        <div class="sub-item">Blog Directory (External Links Curated)</div>
+                        <div class="sub-item">Published Articles & Papers</div>
+                        <div class="sub-item">TakeDecision.aspx - Write Up</div>
+                        <div class="sub-item">Thought Pieces & Essays</div>
+                        <div class="sub-item">Guest Contributions</div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <div class="nav-title">LD Wings - Initiatives</div>
+                    <div class="sub-items">
+                        <div class="sub-item">Global Hindu Temple Network</div>
+                        <div class="nested-sub-item">Prayer Times & Schedules</div>
+                        <div class="nested-sub-item">Virtual Prayer Hall (Under Development)</div>
+                        <div class="nested-sub-item">Temple Networks</div>
+                        <div style="margin-left: 50px;">
+                            <div class="nested-sub-item">Ayyappa Resources & PDFs</div>
+                            <div class="nested-sub-item">Sri Vaishnava Divyadesams</div>
+                            <div class="nested-sub-item">Sri Siva Temple Network</div>
+                            <div class="nested-sub-item">Sri Lakshmi Narasimha</div>
+                        </div>
+                        <div class="nested-sub-item">Community Resources</div>
+                        <div class="sub-item">Future Initiatives</div>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <div class="nav-title">Contact</div>
+                    <div class="sub-items">
+                        <div class="sub-item">Contact Form (Hosted)</div>
+                        <div class="sub-item">Social Media Links</div>
+                        <div class="sub-item">Professional Networks</div>
+                        <div class="sub-item">Collaboration Opportunities</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KEY DECISIONS -->
+        <div class="section">
+            <h2>Key Strategic Decisions</h2>
+            <div class="decisions">
+                <div class="decision-card">
+                    <h4>1. Primary Domain Selection</h4>
+                    <ul>
+                        <li>Option A: lavanyadeepak.github.io (Free, GitHub-backed)</li>
+                        <li>Option B: lavanyadeepak.rf.gd (Existing content)</li>
+                        <li>Option C: Purchase custom domain (lavanyadeepak.com)</li>
+                    </ul>
+                    <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.9;">
+                        <strong>Recommendation:</strong> Custom domain for professional brand, redirect others
+                    </p>
+                </div>
+
+                <div class="decision-card">
+                    <h4>2. Design Approach</h4>
+                    <ul>
+                        <li>Minimalist foundation (from Site 1)</li>
+                        <li>Progressive disclosure for depth</li>
+                        <li>Clean typography & whitespace</li>
+                        <li>Mobile-first responsive design</li>
+                    </ul>
+                    <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.9;">
+                        <strong>Recommendation:</strong> Modern minimalism with depth on demand
+                    </p>
+                </div>
+
+                <div class="decision-card">
+                    <h4>3. Content Priority</h4>
+                    <ul>
+                        <li>Technical work & publications (primary)</li>
+                        <li>Personal brand & story (secondary)</li>
+                        <li>Temple Network (specialized initiative)</li>
+                        <li>Blog aggregation (curated showcase)</li>
+                    </ul>
+                    <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.9;">
+                        <strong>Recommendation:</strong> Lead with professional identity, support with initiatives
+                    </p>
+                </div>
+
+                <div class="decision-card">
+                    <h4>4. Technology Stack</h4>
+                    <ul>
+                        <li>Static site generator (Jekyll, Hugo, or Next.js)</li>
+                        <li>GitHub Pages hosting (free, reliable)</li>
+                        <li>Minimal JavaScript for interactions</li>
+                        <li>Progressive Web App features</li>
+                    </ul>
+                    <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.9;">
+                        <strong>Recommendation:</strong> Next.js for flexibility + static export
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT PRIORITY MATRIX -->
+        <div class="section">
+            <h2>Content Priority Matrix</h2>
+            <div class="priority-matrix">
+                <div class="priority-box priority-high">
+                    <h4>🔴 High Priority (Top Level Navigation)</h4>
+                    <ul>
+                        <li>Home - Brand identity & introduction</li>
+                        <li>About - Your story & journey</li>
+                        <li>Work & Projects - Technical showcase</li>
+                        <li>Publications - Thought leadership</li>
+                        <li>Contact - Professional connections</li>
+                    </ul>
+                </div>
+
+                <div class="priority-box priority-medium">
+                    <h4>🟡 Medium Priority (Secondary/Sub-navigation)</h4>
+                    <ul>
+                        <li>LD Wings initiatives (dedicated section)</li>
+                        <li>Temple Network (under LD Wings)</li>
+                        <li>Photo tour (under About)</li>
+                        <li>Blog directory (curated list)</li>
+                        <li>GitHub repositories (linked showcase)</li>
+                    </ul>
+                </div>
+
+                <div class="priority-box priority-medium">
+                    <h4>🟢 Future Expansion Areas</h4>
+                    <ul>
+                        <li>Virtual Prayer Hall completion</li>
+                        <li>Community forum/discussion</li>
+                        <li>Newsletter or mailing list</li>
+                        <li>Interactive project demos</li>
+                        <li>Video content integration</li>
+                    </ul>
+                </div>
+
+                <div class="priority-box priority-high">
+                    <h4>⚡ Quick Wins (Implement First)</h4>
+                    <ul>
+                        <li>Single cohesive brand identity</li>
+                        <li>Unified navigation structure</li>
+                        <li>Responsive mobile design</li>
+                        <li>Fast loading static pages</li>
+                        <li>Clear content hierarchy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- IMPLEMENTATION RECOMMENDATIONS -->
+        <div class="section">
+            <h2>Implementation Recommendations</h2>
+            <div class="recommendations">
+                <h4>Technical Architecture</h4>
+                
+                <div class="recommendation-item">
+                    <strong>Framework:</strong> Use Next.js with static export for best of both worlds - modern development experience with static site performance. Host on GitHub Pages or Vercel.
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>Navigation Pattern:</strong> Sticky header with clear top-level navigation. Use dropdown menus for sub-sections (e.g., Temple Network under LD Wings). Mobile: hamburger menu with smooth transitions.
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>Design System:</strong> Establish consistent colors, typography, and spacing. Suggest: Primary color from current minimalist site, accent colors for different sections (tech/spiritual/personal).
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>Content Migration:</strong> Prioritize high-value content first (About, Work, key Publications). Migrate temple resources with clear categorization. Archive or consolidate redundant pages.
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>SEO & Discovery:</strong> Create unique meta descriptions for each section. Use structured data for articles and blog posts. Implement XML sitemap and robots.txt.
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>Performance:</strong> Lazy-load images, minify assets, use CDN for static resources. Target: <2s initial load time, 90+ Lighthouse score.
+                </div>
+
+                <div class="recommendation-item">
+                    <strong>Analytics:</strong> Implement privacy-friendly analytics (Plausible or similar) to understand which sections resonate with visitors. Use insights to refine content strategy.
+                </div>
+            </div>
+        </div>
+
+        <!-- INFORMATION ARCHITECTURE NOTES -->
+        <div class="section">
+            <h2>Information Architecture Notes</h2>
+            <h3>User Journey Considerations</h3>
+            <div style="background: #f7fafc; padding: 20px; border-radius: 8px; margin-top: 15px;">
+                <p style="margin-bottom: 15px;"><strong>First-time Visitors:</strong> Should immediately understand who you are (professional + spiritual interests) and navigate easily to areas of interest.</p>
+                
+                <p style="margin-bottom: 15px;"><strong>Returning Visitors:</strong> Quick access to latest blogs, project updates, and temple resources through homepage widgets or "What's New" section.</p>
+                
+                <p style="margin-bottom: 15px;"><strong>Technical Audience:</strong> Direct path to GitHub, publications, and technical write-ups without scrolling through other content.</p>
+                
+                <p style="margin-bottom: 15px;"><strong>Spiritual/Temple Community:</strong> Clear navigation to temple resources, prayer times, and PDFs under LD Wings section.</p>
+            </div>
+
+            <h3>Content Organization Principles</h3>
+            <div style="background: #f7fafc; padding: 20px; border-radius: 8px; margin-top: 15px;">
+                <ul style="list-style: none;">
+                    <li style="padding: 8px 0;"><strong>✓ Clarity over complexity:</strong> Max 3 levels of navigation depth</li>
+                    <li style="padding: 8px 0;"><strong>✓ Logical grouping:</strong> Related content stays together (all temple resources under one umbrella)</li>
+                    <li style="padding: 8px 0;"><strong>✓ Consistent labeling:</strong> Use clear, descriptive navigation labels</li>
+                    <li style="padding: 8px 0;"><strong>✓ Search functionality:</strong> Add site search for content-rich sections</li>
+                    <li style="padding: 8px 0;"><strong>✓ Breadcrumbs:</strong> Show users where they are in the site hierarchy</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- NEXT STEPS -->
+        <div class="section">
+            <h2>Recommended Next Steps</h2>
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px;">
+                <h4 style="font-size: 1.3em; margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">Phase 1: Foundation (Week 1-2)</h4>
+                <ol style="margin-left: 20px; line-height: 1.8;">
+                    <li>Decide on primary domain and acquire if needed</li>
+                    <li>Audit all existing content from both sites</li>
+                    <li>Create design mockups for homepage + 2-3 key pages</li>
+                    <li>Set up development environment (Next.js + GitHub)</li>
+                </ol>
+
+                <h4 style="font-size: 1.3em; margin: 25px 0 20px 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">Phase 2: Core Build (Week 3-4)</h4>
+                <ol style="margin-left: 20px; line-height: 1.8;">
+                    <li>Build homepage with hero + navigation</li>
+                    <li>Create About page with photo tour</li>
+                    <li>Develop Work & Projects showcase</li>
+                    <li>Migrate top 5-10 blog posts/publications</li>
+                </ol>
+
+                <h4 style="font-size: 1.3em; margin: 25px 0 20px 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">Phase 3: Content & Features (Week 5-6)</h4>
+                <ol style="margin-left: 20px; line-height: 1.8;">
+                    <li>Build LD Wings section with temple network</li>
+                    <li>Migrate remaining content systematically</li>
+                    <li>Implement contact form</li>
+                    <li>Add search functionality</li>
+                    <li>SEO optimization & analytics setup</li>
+                </ol>
+
+                <h4 style="font-size: 1.3em; margin: 25px 0 20px 0; border-bottom: 2px solid rgba(255,255,255,0.3); padding-bottom: 10px;">Phase 4: Polish & Launch (Week 7-8)</h4>
+                <ol style="margin-left: 20px; line-height: 1.8;">
+                    <li>Performance optimization</li>
+                    <li>Cross-browser/device testing</li>
+                    <li>Set up redirects from old URLs</li>
+                    <li>Soft launch with feedback collection</li>
+                    <li>Official launch & promotion</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><strong>Document Created:</strong> February 2026</p>
+        <p style="margin-top: 10px;">This sitemap and architecture guide provides a strategic framework for unifying your digital presence.</p>
+        <p style="margin-top: 5px;">Adjust priorities and timelines based on your resources and goals.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+{
+	"meta": {
+		"theme": "elegant"
+	},
+	"basics": {
+		"name": "Deepak Kumar Vasudevan",
+		"label": "Solutions Architect",
+		"image": "https://avatars.githubusercontent.com/u/2217926?v=4",
+		"summary": "Seasoned Software Professional with Two Decades Plus of Experience",
+		"website": "https://lavanyadeepak.github.io/lavanyadeepak/",
+		"email": "deepak.vasudevan@outlook.com",
+		"location": {
+			"city": "Bengaluru",
+			"region": "Karnataka"
+			"countryCode": "IN"
+		},
+		"profiles": [{
+				"username": "lavanyadeepak",
+				"url": "https://twitter.com/lavanyadeepak",
+				"network": "twitter"
+			},
+			{
+				"url": "https://github.com/lavanyadeepak",
+				"username": "lavanyadeepak",
+				"network": "github"
+			}
+		]
+	},
+	"education": [{
+			"endDate": "1995-07-07",
+			"startDate": "1999-05-05",
+			"area": "Computer Science and Engineering",
+			"studyType": "Bachelors of Engineering",
+			"institution": "Vellore Engineering College (University of Madras)"
+		},
+		{
+			"endDate": "2005-05-05",
+			"startDate": "2007-05-05",
+			"area": "Systems",
+			"studyType": "Masters of Business Administration",
+			"institution": "Alagappa University"
+		}
+	],
+	"skills": [{
+			"keywords": [
+				"HTML ",
+				"SCSS / CSS / BEM / Styled Components",
+				"Javascript / Typescript",
+				"Angular / ReactJS"
+			],
+			"level": "Intermediate",
+			"name": "Frontend"
+		},
+		{
+			"keywords": ["ASP.NET MVC", "ASP.NET Classic", "ASP", "PHP"],
+			"level": "Senior",
+			"name": "Frameworks and Languages"
+		},
+		{
+			"keywords": ["SQL Server", "MongoDB", "MySQL", "Postgres"],
+			"level": "Senior",
+			"name": "Database"
+		},
+		{
+			"keywords": ["VSS", "TFS", "ClearCase", "SVN", "GIT"],
+			"level": "Senior",
+			"name": "Source Control"
+		},
+		{
+			"keywords": ["Apache 2.0.4", "IIS 10", "NGinx"],
+			"level": "Senior",
+			"name": "Web Servers"
+		},
+		{
+			"keywords": ["Windows Server 2019", "Windows 11", "Ubuntu 20.04"],
+			"level": "Senior",
+			"name": "Operating Systems"
+		},
+		{
+			"keywords": ["AWS", "Azure Devops"],
+			"level": "Senior",
+			"name": "Devops"
+		}
+	],
+	"awards": [{
+			"title": "Microsoft Valuable Professional (2003: .NET Framework; 2004 to 2005: C#, 2006+: ASP/ASP.NET)",
+			"awarder": "Microsoft"
+		},
+		{
+			"title": "Verizon AES Excellency Award (2005) ",
+			"awarder": "Verizon"
+		},
+		{
+			"title": "Dotnetspider Valuable Professional (2007)  ",
+			"awarder": "Dotnetspider"
+		},
+		{
+			"title": "Community Credit Hall of Fame (2008  ",
+			"awarder": "Community Credit by David Silverlight"
+		}
+	],
+	"work": [{
+			"summary": "Was roped in to support on feature developments and bug fixes of an existing application framework for a few healthcare customers. Participate in the scrum ceremonies to understand the stories/tasks and then liaise with the technical team toward implementation of the same. Coordinate with QA and BA team to ensure the story’s acceptance criteria is met.",
+			"website": "https://www.guidehouse.com/",
+			"name": "Guidehouse",
+			"location": "Bengaluru",
+			"position": "SR.SOFTWARE ENGINEER (C2H) AT GUIDEHOUSE INDIA LTD",
+			"startDate": "2020-08-01",
+			"endDate": "2021-03-31",
+			"highlights": ["ASP.NET", "Core", "Web API", "Product"]
+		},
+		{
+			"summary": "Mobotix CMS: A value added online web service component for their flagship product called Toolbox for Mobotix AG wherein rest of the applications can at ease manage their PDF documents like cobranding their respective sponsor identity, compress, implode and explode the document",
+			"website": "https://www.mobotix.com/",
+			"name": "IdeaPlunge LLP",
+			"location": "Chennai/Bengaluru/Germany",
+			"position": "Freelance Technical Architect",
+			"startDate": "2019-01-20",
+			"endDate": "2019-12-31",
+			"highlights": ["ASP.NET", "WPF", "Web API", ".NET Core"]
+		},
+		{
+			"summary": "Converge is a bouquet of enterprise applications powering SLK Intranet and Extranet towards accomplishing business objectives. One of the applications in Converge is Empower.  Empower monitors the actual productivity and time spent by executives on the production floor. It helps view the operations holistically and identify opportunities for collaboration and optimization across the enterprise. It facilitates unlocking the full potential of the human capital and digital investments by identifying how teams spend time that impacts the customers and the enterprise",
+			"website": "https://www.slkgroup.com/",
+			"name": "SLK Group",
+			"location": "Bengaluru",
+			"position": "Development Manager",
+			"startDate": "2018-06-20",
+			"endDate": "2018-12-31",
+			"highlights": ["ASP.NET", "WPF", "Web API", "SQL Server"]
+		},
+		{
+			"summary": "Value Creation Portal. ",
+			"website": "https://www.hcltech.com/",
+			"name": "HCL Technologies",
+			"location": "Noida",
+			"position": "Technical Manager",
+			"startDate": "2016-07-22",
+			"endDate": "2018-06-19",
+			"highlights": ["ASP.NET", "MVC", "Web API", "Product", "SAP"]
+		},
+		{
+			"summary": "Facets Claims and Rejections",
+			"website": "https://www.hpe.com/",
+			"name": "HP (through Growell Softech)",
+			"location": "Bengaluru",
+			"position": "Project Lead",
+			"startDate": "2016-01-18",
+			"endDate": "2016-07-22",
+			"highlights": [".NET Windows Service", "SQL Server 2014"]
+		},
+		{
+			"summary": "CMS System for Axalta",
+			"website": "https://www.coteng.com/",
+			"name": "Coteng (previously ITBright)",
+			"location": "Chennai",
+			"position": "Technical Specialist .NET (Freelance Consultant)",
+			"startDate": "2015-09-30",
+			"endDate": "2016-01-17",
+			"highlights": ["ASP.NET", "MVC"]
+		},
+		{
+			"summary": "IdeaConnect Portal for Magna",
+			"website": "https://www.softura.com/",
+			"name": "Softura",
+			"location": "Chennai",
+			"position": "Project Lead",
+			"startDate": "2015-05-15",
+			"endDate": "2015-09-30",
+			"highlights": ["ASP.NET", "MVC", "AngularJS"]
+		},
+		{
+			"summary": "Wheels Intranet Application",
+			"website": "https://www.genpact.com/",
+			"name": "Sakshi Automation",
+			"location": "Gurgaon",
+			"position": "Onsite Consultant (Freelance)",
+			"startDate": "2001-05-10",
+			"endDate": "2001-07-15",
+			"highlights": ["ASP", "SQL Server 2007", "VB 6.0"]
+		},
+		{
+			"summary": "MyEncompass",
+			"website": "https://www.allstate.com/",
+			"name": "My Encompass",
+			"location": "Northbrook IL USA, Pune MH IN and Chennai TN IN",
+			"position": "Project Lead",
+			"startDate": "2014-05-18",
+			"endDate": "2015-04-24",
+			"highlights": ["ASP.NET", "MVC", "Web API"]
+		},
+		{
+			"summary": "EMS PI",
+			"website": "https://www.syntelinc.com/",
+			"name": "EMSPI product for HCA TN USA",
+			"location": "Waltham MA USA/Pune MH IN",
+			"position": "Project Lead",
+			"startDate": "2013-05-01",
+			"endDate": "2014-05-04",
+			"highlights": ["ASP.NET", "MVC", "Web API", "Product", "SAP"]
+		},
+		{
+			"summary": "PG RMA Tool for Dell",
+			"website": "https://www.ordusion.com/",
+			"name": "Dell (through Ordusion)",
+			"location": "Nashua NH USA",
+			"position": "Project Member",
+			"startDate": "2012-06-12",
+			"endDate": "2013-04-30",
+			"highlights": ["ASP.NET", "Highcharts", "SQL Server"]
+		},
+		{
+			"summary": "Resource Advisor for Summit Energy",
+			"website": "https://www.ordusion.com/",
+			"name": "Resource Advisor for Summit Energy",
+			"location": "Louisville KY USA",
+			"position": "Technical Manager",
+			"startDate": "2011-10-04",
+			"endDate": "2012-06-11",
+			"highlights": ["ASP.NET", "VB.NET", "Telerik", "WCF"]
+		},
+		{
+			"summary": "Verizon Call Assistant",
+			"website": "https://www.verizon.com/",
+			"name": "VCA for Verizon",
+			"location": "Chennai TN IN and Irving TX US",
+			"position": "Architect",
+			"startDate": "2008-03-03",
+			"endDate": "2010-02-26",
+			"highlights": ["ASP.NET", "C#", "Product", "SAP"]
+		},
+		{
+			"summary": "FiosDrive/IobiDrive",
+			"website": "https://www.verizon.com/",
+			"name": "IobiDrive for Verizon",
+			"location": "Chennai TN IN and Irving TX US",
+			"position": "System Analyst/Architect",
+			"startDate": "2004-11-15",
+			"endDate": "2008-03-02",
+			"highlights": ["ASP.NET","XML Web Services ","Product", "SAP"]
+		},
+		{
+			"summary": "Synatris Reporter",
+			"website": "https://www.csscorp.com/",
+			"name": "Synaptris Reporter",
+			"location": "Chennai TN IN",
+			"position": "Technical Manager",
+			"startDate": "2004-04-10",
+			"endDate": "2004-10-19",
+			"highlights": ["ASP.NET", "SQL Server"]
+		},
+		{
+			"summary": "Member Portfolio Systems",
+			"website": "https://www.cssolutionsinc.com/",
+			"name": "CS Solutions Inc",
+			"location": "Chennai TN",
+			"position": "Software Engineer",
+			"startDate": "2001-07-05",
+			"endDate": "2004-04-30",
+			"highlights": ["ASP.NET", "MVC", "Web API", "Product", "SAP"]
+		},
+		{
+			"summary": "Sidco",
+			"website": "https://www.tamilnaduexports.com/",
+			"name": "SIDCO",
+			"location": "Chennai TN IN",
+			"position": "Software Engineer",
+			"startDate": "1999-12-06",
+			"endDate": "2001-04-05",
+			"highlights": ["ASP", "SQL Server 7.0"]
+		}
+	],
+	"interests": [{
+			"name": "Cybersecurity"
+		},
+		{
+			"name": "Community Awareness on Politics, eGovernance and elimination of Graft/Politics"
+		}
+	]
+}
