@@ -498,6 +498,7 @@
             color: var(--white);
             padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
             margin-top: var(--spacing-2xl);
+            text-align: center; /* centers text and inline-block children */
         }
 
         .footer-content {
@@ -540,6 +541,7 @@
             flex-wrap: wrap;
             gap: var(--spacing-sm);
             margin-top: var(--spacing-md);
+            justify-content: center; /* centers horizontally */
         }
 
         .social-icons a {
